@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<button id="btn" class="blue">按钮</button>
+
+<script>
+    var btn = document.getElementById("btn");
+
+    btn.addEventListener("click", function() {
+        // 使用classList切换class
+        btn.classList.toggle("red");
+    });
+</script>
+
+<style>
+    .blue {
+        background-color: blue;
+        color: white;
+    }
+
+    .red {
+        background-color: red;
+        color: white;
+    }
+</style>
+
+</body>
+</html>

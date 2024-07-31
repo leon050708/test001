@@ -1,0 +1,52 @@
+.body_left_box {
+    width: 150px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    border-right: 1px solid wheat;
+    font-size: 12px;
+}
+.app-head {
+    height: 50px;
+    overflow: visible;
+    box-sizing: border-box;
+    background: #e6e6e6;
+}
+.body-box {
+    position: relative;
+}
+.body {
+    padding-left: 150px;
+    position: relative;
+}
+.p1 {
+    line-height: 30px;//居中
+    height: 30px;
+    border-left-style: solid;
+    border-left-width: 10px;
+    border-left-color: aqua;
+    background-color: aquamarine;
+}
+ul {
+    list-style: none;
+    margin-left: 0px;
+}
+li {
+    padding-left: 0px;
+}
+.disp {
+    font-size: 10px;
+    margin: 0px;
+    padding: 0px;
+}
+.ndisp {
+    font-size: 10px;
+    margin: 0px;
+    padding: 0px;
+    display: none;
+}
+
+
+
